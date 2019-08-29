@@ -2992,12 +2992,14 @@ input, select, textarea {
 
 			header.major {
 				margin: 0 0 2rem 0;
+			
 			}
 
 		}
 
 	header.major .date:before, header.major .date:after {
 		border-top-color: #eeeeee;
+		
 	}
 
 /* Table */
@@ -3779,15 +3781,17 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			padding: 8rem 8rem 2rem 8rem ;
 		}
 
 			#main > .post header.major > .date {
 				margin-top: -2rem;
+				
 			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
-				font-size: 4rem;
+				
+				font-size: 2rem;
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
 			}
@@ -3811,6 +3815,7 @@ input, select, textarea {
 				}
 
 					#main > .post header.major > .date {
+						
 						margin-top: -1rem;
 						margin-bottom: 2rem;
 					}
@@ -4687,3 +4692,27 @@ input, select, textarea {
 		}
 
 	}
+
+#des1, #des2 {
+	font-size: 0.85rem; 
+
+}
+.posts img {
+	border: 1px solid black; 
+	height: 300px; 
+	width: 448px; 
+}
+
+
+/* .main-project{ */
+	/* background: red;  */
+	
+/* } */
+/* .main-project img { */
+/* border: 1px solid blue;  */
+/* } */
+
+/* .featured { */
+	/* background: green;  */
+	/* padding-bottom: 3px;  */
+/* } */
